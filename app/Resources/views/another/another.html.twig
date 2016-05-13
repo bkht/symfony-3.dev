@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    Another :: {{ parent() }}
+{% endblock %}
+
+{#{% block javascripts_head %}#}
+
+{#{% endblock %}#}
+
+{% block body %}
+    <h1>Hello World!</h1>
+    <h1>The quick brown fox jumps over the lazy dog.</h1>
+    <p>The quick brown fox jumps over the lazy dog.</p>
+    <p>{{ parent() }}</p>
+
+{% endblock %}

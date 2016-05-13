@@ -1,0 +1,38 @@
+/*TinyWFL - Tiny Web Font Loader*/
+/*https://github.com/radiac/tinywfl*/
+/*https://www.google.com/fonts*/
+/*https://www.google.com/fonts/specimen/Work+Sans*/
+
+body {
+    /*font-family: "Hind", Verdana, sans-serif;*/
+    /*font-family: "Maven Pro", Verdana, sans-serif;*/
+    font-family: "Work Sans", Verdana, sans-serif;
+    /*font-family: "Open Sans", Verdana, sans-serif;*/
+    padding-top: 60px;
+}
+
+/* Turn it off when TinyWFL is present, but the font isn't available yet */
+html.tinywfl:not(.tinywfl-opensans) body {
+    font-family: Verdana, sans-serif;
+}
+
+.starter-template {
+    padding: 140px 15px;
+    text-align: center;
+}
+
+.social-metric-count {
+    font-size: 26px;
+    text-align: center;
+}
+
+.social-metric-name {
+    font-size: 10px;
+    text-align: center;
+}
+
+.list-group-item {
+    min-height: 60px;
+}
+
+
